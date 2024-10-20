@@ -1,0 +1,6 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\adityap16\\Downloads\\hsqldb-2.7.2\\hsqldb-2.7.2\\hsqldb\\lib\\hsqldb.jar"
+    ]
+}
