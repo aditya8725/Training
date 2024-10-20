@@ -1,0 +1,12 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\adityap16\\Downloads\\hsqldb-2.7.2\\hsqldb-2.7.2\\hsqldb\\lib\\hsqldb.jar",
+        "c:\\Users\\adityap16\\Downloads\\commons-logging-1.3.4.jar",
+        "c:\\Users\\adityap16\\Downloads\\spring-context-6.1.14.jar",
+        "c:\\Users\\adityap16\\Downloads\\spring-expression-6.1.14.jar",
+        "c:\\Users\\adityap16\\Downloads\\spring-core-6.1.14.jar",
+        "c:\\Users\\adityap16\\Downloads\\spring-beans-6.1.14.jar",
+        "c:\\Users\\adityap16\\Downloads\\spring-aop-6.1.14.jar"
+    ]
+}
