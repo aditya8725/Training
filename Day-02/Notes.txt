@@ -1,0 +1,70 @@
+OOPS
+----
+
+Object-Oriented Programming (OOP) : is a way of designing and writing software where you group related
+tasks and data together into "objects
+
+Key Principles of OOPS:
+1-> Encapsulation
+2-> Inheritance
+3-> Polymorphism
+4-> Abstraction
+
+
+1) Encapsulation->It is defined as wrapping up of data under a single unit is encapsulation. 
+Its aslo implements data hiding.
+Why do we need encapsulation: To avoid data directly exposed to outside world.
+
+2) Inheritance: When the poperties & methods of base class are passed into derived class 
+(or one class accquiring the properties of other class.)
+Why do we need inheritance: code resuability, polymorphism, abstraction.
+
+	a) Single Inheritance: In single inheritance, a class inherits from one base (parent) class.
+	b) Multilevel Inheritance: In multilevel inheritance, a class is derived from another class, which is also derived from another class.
+	c) Hierarchical Inheritance: In hierarchical inheritance, multiple classes inherit from a single base class.
+	d) Multiple Inheritance (Java does not support directly) ---> We can do it by using interface.
+	Reason : To reduce the time complexity and simplify the language.
+	e)Hybrid Inheritance: It is the combination of single and multiple inheritance.(It is not directly allowed in java).
+
+
+3) Polymorphism: Polymorphism in simple terms means "many forms." It's a concept in programming that allows one interface or method to be used in multiple ways.
+
+	There are two types of polymorphism:
+	a) Compile time or static polymoriphism
+	b) Run time or Dynamic polymorphism
+
+	a) Compile time or static polymoriphism:
+	Here we use method overloading.
+	Overloading ---> means multiple methods or function having the same name but different parameters.
+
+	b) Run time or Dynamic polymorphism:
+	Here we use overridding method.
+	Overriding ---> Child and parent class have same method but different defination.
+
+4) Abstraction : Hiding all the unnessary details and showing only the important part to the user is known as abstraction:
+Example, you know how to use a TV remote without knowing how it works inside.
+
+	There are two ways to achieve abstraction in java
+	1. Abstract class.
+	2. Interface
+
+	1. Abstract Classes: In Java, an abstract class is a class that cannot be instantiated on its own and can include abstract methods (methods without a body) that must be implemented by subclasses.
+	2. Interfaces: An interface in Java is a reference type that can contain only abstract methods (from Java 8 onward, interfaces can also have default and static methods). Classes that implement the interface must provide implementations for the abstract methods.
+
+
+Java 8 Features
+---------------
+1-> Lymbda Expression
+2-> StreamMethod API
+3-> Default Method
+4-> Optional Class
+5-> String Joiner
+
+1. Lymbda Expression: It is short way to write a method without actually naming it. It allows you to write code in faster and in more readable way.\
+2. Stream API: A new abstraction that allows processing sequence of elements (collection) in a functional style.
+3. Default method: Methods in interface that have a body and can be used by implementing classes.
+4. Optional Class: A container object may or may not contain a value, used to avoid NullpointerException.
+4. String Joiner:  String Joiner in java that provides a convenient way to construct string by joining mulitple string together with s specified delimiter.
+
+
+
